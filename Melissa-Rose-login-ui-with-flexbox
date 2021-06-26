@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<style>
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    margin: 0%;
+    background-color: rgb(245, 245, 245);
+}
+
+.flex-container{
+        display: flex;
+        background-color: white;
+        min-width: 36%;
+        min-height: 44%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius:  5%;
+        box-shadow: 1px 1px 1px white          
+    }   
+
+h3{
+
+    font-size: .95rem; 
+    font-family:-webkit-body;
+    font-weight: lighter;
+    
+}
+
+ #username{
+    border: none;
+    font-size: .5rem;
+    line-height: 1rem;
+    border-bottom: 1px solid rgb(195, 201, 206)
+}
+    
+#password{
+    border: none;
+    font-size: .5rem;
+    line-height: 1rem;
+    border-bottom: 1px solid rgb(195, 201, 206)
+}    
+
+::placeholder{
+    color: lightgray
+}
+
+button{
+    height: 1.6rem;
+    width:  52%;
+    font-size: .5rem;
+    color: white;
+    background-color: dodgerblue;
+    border-radius:  30%;
+    border: none;
+}
+                
+</style>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<meta name="HandheldFriendly" content= "true">
+
+<meta name="viewport"
+content="width=device-width, initial-scale= 1.0">
+
+
+<div class="flex-container">
+
+<h3>Sign in</h3>
+<input type= "text" id= "username"  size= "32" placeholder= "username">
+<input type= "password" id= "password"  size= "32" placeholder= "password">
+<button>Sign in</button>
+</div>
+
+</body>
+</html>
