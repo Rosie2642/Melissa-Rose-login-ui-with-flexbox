@@ -1,0 +1,92 @@
+html{
+  height: 100%
+}
+
+
+body{
+   
+    height: 100%;
+    width: 100%;
+    min-height: 50%;
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    background-image: url("https://images.pexels.com/photos/2163508/pexels-photo-2163508.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    opacity: 60%;
+
+}
+
+.flex-container{
+        display: flex;
+        min-width: 350px;
+        min-height: 250px;
+        width: 24%;
+        height: 18%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: solid .2rem;
+        border-radius:  10%;
+        box-shadow: 20px 20px 20px 20px black;
+    }   
+
+h3 {
+    
+    font-size: 2rem; 
+    font-family:Garamond, serif;   
+    color: black;         
+    font-weight: bolder;                
+     
+    
+}
+
+ #username{
+   
+    border: none;
+    outline: none;
+    font-size: .8rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+    border-bottom: 1px solid rgb(195, 201, 206);
+    margin-bottom: 1.2rem;
+    margin-top: .1rem;   
+
+}
+    
+#password{
+   
+    border: none;
+    outline: none;
+    font-size: .8rem;
+    font-weight: bold;
+    color: black;
+    line-height: 1.5rem;
+    border-bottom: 1px solid rgb(195, 201, 206);
+    margin-bottom: 1.5rem;
+    
+
+}    
+
+::placeholder{
+    color: gray
+}
+
+#submit{
+    text-align: center;
+    height: 1.9rem;
+    width:  15rem;
+    font-size: .85rem;
+    color: white;
+    background-color: black;
+    border-radius: 5rem;
+    border: none;
+    
+    
+    
+}
+                
